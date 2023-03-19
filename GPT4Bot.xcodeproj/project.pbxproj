@@ -12,7 +12,6 @@
 		AAFCB4E929C689E9001A4BA0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AAFCB4E829C689E9001A4BA0 /* Assets.xcassets */; };
 		AAFCB4EC29C689E9001A4BA0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AAFCB4EB29C689E9001A4BA0 /* Preview Assets.xcassets */; };
 		AAFCB4F429C68A00001A4BA0 /* OpenAPIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAFCB4F329C68A00001A4BA0 /* OpenAPIManager.swift */; };
-		AAFCB4F729C68A1F001A4BA0 /* Connectivium in Frameworks */ = {isa = PBXBuildFile; productRef = AAFCB4F629C68A1F001A4BA0 /* Connectivium */; };
 		AAFCB4F929C6DFEA001A4BA0 /* ChatModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAFCB4F829C6DFEA001A4BA0 /* ChatModel.swift */; };
 /* End PBXBuildFile section */
 
@@ -32,7 +31,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AAFCB4F729C68A1F001A4BA0 /* Connectivium in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -94,7 +92,6 @@
 			);
 			name = GPT4Bot;
 			packageProductDependencies = (
-				AAFCB4F629C68A1F001A4BA0 /* Connectivium */,
 			);
 			productName = GPT4Bot;
 			productReference = AAFCB4E129C689E8001A4BA0 /* GPT4Bot.app */;
@@ -125,7 +122,6 @@
 			);
 			mainGroup = AAFCB4D829C689E8001A4BA0;
 			packageReferences = (
-				AAFCB4F529C68A1F001A4BA0 /* XCRemoteSwiftPackageReference "Connectivium" */,
 			);
 			productRefGroup = AAFCB4E229C689E8001A4BA0 /* Products */;
 			projectDirPath = "";
@@ -352,25 +348,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCRemoteSwiftPackageReference section */
-		AAFCB4F529C68A1F001A4BA0 /* XCRemoteSwiftPackageReference "Connectivium" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/froggomad/Connectivium";
-			requirement = {
-				branch = main;
-				kind = branch;
-			};
-		};
-/* End XCRemoteSwiftPackageReference section */
-
-/* Begin XCSwiftPackageProductDependency section */
-		AAFCB4F629C68A1F001A4BA0 /* Connectivium */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = AAFCB4F529C68A1F001A4BA0 /* XCRemoteSwiftPackageReference "Connectivium" */;
-			productName = Connectivium;
-		};
-/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = AAFCB4D929C689E8001A4BA0 /* Project object */;
 }
