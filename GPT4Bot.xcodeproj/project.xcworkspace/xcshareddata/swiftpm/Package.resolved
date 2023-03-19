@@ -1,0 +1,14 @@
+{
+  "pins" : [
+    {
+      "identity" : "connectivium",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/froggomad/Connectivium",
+      "state" : {
+        "branch" : "main",
+        "revision" : "3890460858d1db3260b22cfd8a3f13b61cdc5a67"
+      }
+    }
+  ],
+  "version" : 2
+}

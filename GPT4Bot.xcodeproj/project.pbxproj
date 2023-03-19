@@ -1,0 +1,376 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AAFCB4E529C689E8001A4BA0 /* GPT4BotApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAFCB4E429C689E8001A4BA0 /* GPT4BotApp.swift */; };
+		AAFCB4E729C689E8001A4BA0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAFCB4E629C689E8001A4BA0 /* ContentView.swift */; };
+		AAFCB4E929C689E9001A4BA0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AAFCB4E829C689E9001A4BA0 /* Assets.xcassets */; };
+		AAFCB4EC29C689E9001A4BA0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AAFCB4EB29C689E9001A4BA0 /* Preview Assets.xcassets */; };
+		AAFCB4F429C68A00001A4BA0 /* OpenAPIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAFCB4F329C68A00001A4BA0 /* OpenAPIManager.swift */; };
+		AAFCB4F729C68A1F001A4BA0 /* Connectivium in Frameworks */ = {isa = PBXBuildFile; productRef = AAFCB4F629C68A1F001A4BA0 /* Connectivium */; };
+		AAFCB4F929C6DFEA001A4BA0 /* ChatModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAFCB4F829C6DFEA001A4BA0 /* ChatModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AAFCB4E129C689E8001A4BA0 /* GPT4Bot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GPT4Bot.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AAFCB4E429C689E8001A4BA0 /* GPT4BotApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GPT4BotApp.swift; sourceTree = "<group>"; };
+		AAFCB4E629C689E8001A4BA0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		AAFCB4E829C689E9001A4BA0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AAFCB4EB29C689E9001A4BA0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AAFCB4ED29C689E9001A4BA0 /* GPT4Bot.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = GPT4Bot.entitlements; sourceTree = "<group>"; };
+		AAFCB4F329C68A00001A4BA0 /* OpenAPIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenAPIManager.swift; sourceTree = "<group>"; };
+		AAFCB4F829C6DFEA001A4BA0 /* ChatModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AAFCB4DE29C689E8001A4BA0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAFCB4F729C68A1F001A4BA0 /* Connectivium in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AAFCB4D829C689E8001A4BA0 = {
+			isa = PBXGroup;
+			children = (
+				AAFCB4E329C689E8001A4BA0 /* GPT4Bot */,
+				AAFCB4E229C689E8001A4BA0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AAFCB4E229C689E8001A4BA0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AAFCB4E129C689E8001A4BA0 /* GPT4Bot.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AAFCB4E329C689E8001A4BA0 /* GPT4Bot */ = {
+			isa = PBXGroup;
+			children = (
+				AAFCB4E429C689E8001A4BA0 /* GPT4BotApp.swift */,
+				AAFCB4E629C689E8001A4BA0 /* ContentView.swift */,
+				AAFCB4E829C689E9001A4BA0 /* Assets.xcassets */,
+				AAFCB4ED29C689E9001A4BA0 /* GPT4Bot.entitlements */,
+				AAFCB4EA29C689E9001A4BA0 /* Preview Content */,
+				AAFCB4F329C68A00001A4BA0 /* OpenAPIManager.swift */,
+				AAFCB4F829C6DFEA001A4BA0 /* ChatModel.swift */,
+			);
+			path = GPT4Bot;
+			sourceTree = "<group>";
+		};
+		AAFCB4EA29C689E9001A4BA0 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				AAFCB4EB29C689E9001A4BA0 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AAFCB4E029C689E8001A4BA0 /* GPT4Bot */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AAFCB4F029C689E9001A4BA0 /* Build configuration list for PBXNativeTarget "GPT4Bot" */;
+			buildPhases = (
+				AAFCB4DD29C689E8001A4BA0 /* Sources */,
+				AAFCB4DE29C689E8001A4BA0 /* Frameworks */,
+				AAFCB4DF29C689E8001A4BA0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GPT4Bot;
+			packageProductDependencies = (
+				AAFCB4F629C68A1F001A4BA0 /* Connectivium */,
+			);
+			productName = GPT4Bot;
+			productReference = AAFCB4E129C689E8001A4BA0 /* GPT4Bot.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AAFCB4D929C689E8001A4BA0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					AAFCB4E029C689E8001A4BA0 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = AAFCB4DC29C689E8001A4BA0 /* Build configuration list for PBXProject "GPT4Bot" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AAFCB4D829C689E8001A4BA0;
+			packageReferences = (
+				AAFCB4F529C68A1F001A4BA0 /* XCRemoteSwiftPackageReference "Connectivium" */,
+			);
+			productRefGroup = AAFCB4E229C689E8001A4BA0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AAFCB4E029C689E8001A4BA0 /* GPT4Bot */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AAFCB4DF29C689E8001A4BA0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAFCB4EC29C689E9001A4BA0 /* Preview Assets.xcassets in Resources */,
+				AAFCB4E929C689E9001A4BA0 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AAFCB4DD29C689E8001A4BA0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAFCB4F429C68A00001A4BA0 /* OpenAPIManager.swift in Sources */,
+				AAFCB4E729C689E8001A4BA0 /* ContentView.swift in Sources */,
+				AAFCB4E529C689E8001A4BA0 /* GPT4BotApp.swift in Sources */,
+				AAFCB4F929C6DFEA001A4BA0 /* ChatModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		AAFCB4EE29C689E9001A4BA0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AAFCB4EF29C689E9001A4BA0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		AAFCB4F129C689E9001A4BA0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = GPT4Bot/GPT4Bot.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"GPT4Bot/Preview Content\"";
+				DEVELOPMENT_TEAM = 34P4RF23ET;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kennydubroff.GPT4Bot;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		AAFCB4F229C689E9001A4BA0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = GPT4Bot/GPT4Bot.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"GPT4Bot/Preview Content\"";
+				DEVELOPMENT_TEAM = 34P4RF23ET;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kennydubroff.GPT4Bot;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AAFCB4DC29C689E8001A4BA0 /* Build configuration list for PBXProject "GPT4Bot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAFCB4EE29C689E9001A4BA0 /* Debug */,
+				AAFCB4EF29C689E9001A4BA0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AAFCB4F029C689E9001A4BA0 /* Build configuration list for PBXNativeTarget "GPT4Bot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAFCB4F129C689E9001A4BA0 /* Debug */,
+				AAFCB4F229C689E9001A4BA0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		AAFCB4F529C68A1F001A4BA0 /* XCRemoteSwiftPackageReference "Connectivium" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/froggomad/Connectivium";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		AAFCB4F629C68A1F001A4BA0 /* Connectivium */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AAFCB4F529C68A1F001A4BA0 /* XCRemoteSwiftPackageReference "Connectivium" */;
+			productName = Connectivium;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = AAFCB4D929C689E8001A4BA0 /* Project object */;
+}
