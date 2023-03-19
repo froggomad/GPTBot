@@ -16,7 +16,10 @@ struct ContentView: View {
                 .textFieldStyle(RoundedBorderTextFieldStyle())
                 .padding()
                 .onSubmit {
-                    let message = Message(role: .user, content: prompt.appending(OpenAPIChatRequest.stopString))
+                    let message = Message(
+                        role: .user,
+                        content: prompt.appending(OpenAPIChatRequest.stopString)
+                    )
                     manager
                         .getCompletion(
                             model: .gpt3_5Turbo,
